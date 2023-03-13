@@ -1,4 +1,4 @@
-public abstract class Funcionario {
+public class Funcionario {
     private String nome;
     private double salario;
     private String cargo;
@@ -9,7 +9,6 @@ public abstract class Funcionario {
         this.cargo = cargo;
     }
 
-    // Métodos get e set para os atributos encapsulados
     public String getNome() {
         return nome;
     }
@@ -34,11 +33,11 @@ public abstract class Funcionario {
         this.cargo = cargo;
     }
 
-    // Método abstrato para calcular o bônus de um funcionário
-    public abstract double calcularBonus();
+    public double calcularBonus() {
+        return salario * 0.05;
+    }
 
-    // Método toString para exibir informações de um funcionário
     public String toString() {
-        return "Nome: " + nome + ", Salário: " + salario + ", Cargo: " + cargo;
+        return "Nome: " + nome + ", Salário: R$" + String.format("%.2f", salario) + ", Cargo: " + cargo;
     }
 }
