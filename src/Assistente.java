@@ -1,4 +1,4 @@
-
+// classe filha Assistente
 public class Assistente extends Funcionario {
     private int numProjetos;
 
