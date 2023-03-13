@@ -1,4 +1,7 @@
+// Classe Main e instanciação dos Objetos
 public class Main {
+
+
     public static void main(String[] args) {
         // Instanciando um objeto da classe Funcionario
         Funcionario f1 = new Funcionario("João Silva", 2000.0, "Funcionário");
