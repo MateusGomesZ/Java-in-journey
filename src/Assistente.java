@@ -15,12 +15,10 @@ public class Assistente extends Funcionario {
         this.numProjetos = numProjetos;
     }
 
-    // Implementação do método abstrato calcularBonus()
     public double calcularBonus() {
         return getSalario() * 0.05 * numProjetos;
     }
 
-    // Sobrescrita do método toString() para exibir informações de um Assistente
     public String toString() {
         return super.toString() + ", Número de Projetos: " + numProjetos;
     }

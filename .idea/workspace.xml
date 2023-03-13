@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fde9a6d-f0e3-4883-bb38-5f61ae630ae4" name="Changes" comment="Criando classe Abstrata Funcionario">
-      <change afterPath="$PROJECT_DIR$/src/Gerente.java" afterDir="false" />
+    <list default="true" id="8fde9a6d-f0e3-4883-bb38-5f61ae630ae4" name="Changes" comment="Adicionar exemplo de classes e objetos com herança em Java&#10;&#10;Este commit adiciona um exemplo simples de uso de herança em Java. Três classes foram criadas para representar diferentes tipos de funcionários: Gerente, Assistente e Analista. A classe Funcionario é uma classe que define os atributos básicos que todos os funcionários compartilham. As outras três classes estendem a classe Funcionario e adicionam atributos específicos de cada tipo de funcionário.&#10;&#10;Cada uma das classes implementa o método calcularBonus() de maneira diferente, com base nas regras de bônus específicas para cada tipo de funcionário. O código na classe Main instancia objetos de cada uma das classes e imprime informações sobre o estado atual dos objetos, bem como o bônus que cada um receberá com base em sua classe específica.&#10;&#10;Este exemplo serve como uma introdução simples ao uso de herança em Java e como uma demonstração de como as classes podem ser usadas para modelar objetos do mundo real com atributos e comportamentos específicos.&#10;&#10;Refs #1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetoDio/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetoDio/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProjetoDio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,12 +76,52 @@
       <option name="project" value="LOCAL" />
       <updated>1678672018628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Classe filha Gerente, que herda atributos e métodos da classe Funcionario">
+      <created>1678672134512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678672134512</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Classe filha Analista, que herda atributos e métodos da classe Funcionario">
+      <created>1678672180209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678672180209</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Classe filha Assistente, que herda atributos e métodos da classe Funcionario">
+      <created>1678672262270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678672262270</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Retirando classe abstrata">
+      <created>1678672572855</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678672572855</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adicionar exemplo de classes e objetos com herança em Java&#10;&#10;Este commit adiciona um exemplo simples de uso de herança em Java. Três classes foram criadas para representar diferentes tipos de funcionários: Gerente, Assistente e Analista. A classe Funcionario é uma classe que define os atributos básicos que todos os funcionários compartilham. As outras três classes estendem a classe Funcionario e adicionam atributos específicos de cada tipo de funcionário.&#10;&#10;Cada uma das classes implementa o método calcularBonus() de maneira diferente, com base nas regras de bônus específicas para cada tipo de funcionário. O código na classe Main instancia objetos de cada uma das classes e imprime informações sobre o estado atual dos objetos, bem como o bônus que cada um receberá com base em sua classe específica.&#10;&#10;Este exemplo serve como uma introdução simples ao uso de herança em Java e como uma demonstração de como as classes podem ser usadas para modelar objetos do mundo real com atributos e comportamentos específicos.&#10;&#10;Refs #1">
+      <created>1678673596529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678673596529</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Criando classe Abstrata Funcionario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando classe Abstrata Funcionario" />
+    <MESSAGE value="Classe filha Gerente, que herda atributos e métodos da classe Funcionario" />
+    <MESSAGE value="Classe filha Analista, que herda atributos e métodos da classe Funcionario" />
+    <MESSAGE value="Classe filha Assistente, que herda atributos e métodos da classe Funcionario" />
+    <MESSAGE value="Retirando classe abstrata" />
+    <MESSAGE value="Adicionar exemplo de classes e objetos com herança em Java&#10;&#10;Este commit adiciona um exemplo simples de uso de herança em Java. Três classes foram criadas para representar diferentes tipos de funcionários: Gerente, Assistente e Analista. A classe Funcionario é uma classe que define os atributos básicos que todos os funcionários compartilham. As outras três classes estendem a classe Funcionario e adicionam atributos específicos de cada tipo de funcionário.&#10;&#10;Cada uma das classes implementa o método calcularBonus() de maneira diferente, com base nas regras de bônus específicas para cada tipo de funcionário. O código na classe Main instancia objetos de cada uma das classes e imprime informações sobre o estado atual dos objetos, bem como o bônus que cada um receberá com base em sua classe específica.&#10;&#10;Este exemplo serve como uma introdução simples ao uso de herança em Java e como uma demonstração de como as classes podem ser usadas para modelar objetos do mundo real com atributos e comportamentos específicos.&#10;&#10;Refs #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionar exemplo de classes e objetos com herança em Java&#10;&#10;Este commit adiciona um exemplo simples de uso de herança em Java. Três classes foram criadas para representar diferentes tipos de funcionários: Gerente, Assistente e Analista. A classe Funcionario é uma classe que define os atributos básicos que todos os funcionários compartilham. As outras três classes estendem a classe Funcionario e adicionam atributos específicos de cada tipo de funcionário.&#10;&#10;Cada uma das classes implementa o método calcularBonus() de maneira diferente, com base nas regras de bônus específicas para cada tipo de funcionário. O código na classe Main instancia objetos de cada uma das classes e imprime informações sobre o estado atual dos objetos, bem como o bônus que cada um receberá com base em sua classe específica.&#10;&#10;Este exemplo serve como uma introdução simples ao uso de herança em Java e como uma demonstração de como as classes podem ser usadas para modelar objetos do mundo real com atributos e comportamentos específicos.&#10;&#10;Refs #1" />
   </component>
 </project>
