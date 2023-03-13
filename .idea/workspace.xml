@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fde9a6d-f0e3-4883-bb38-5f61ae630ae4" name="Changes" comment="Adicionar exemplo de classes e objetos com herança em Java&#10;&#10;Este commit adiciona um exemplo simples de uso de herança em Java. Três classes foram criadas para representar diferentes tipos de funcionários: Gerente, Assistente e Analista. A classe Funcionario é uma classe que define os atributos básicos que todos os funcionários compartilham. As outras três classes estendem a classe Funcionario e adicionam atributos específicos de cada tipo de funcionário.&#10;&#10;Cada uma das classes implementa o método calcularBonus() de maneira diferente, com base nas regras de bônus específicas para cada tipo de funcionário. O código na classe Main instancia objetos de cada uma das classes e imprime informações sobre o estado atual dos objetos, bem como o bônus que cada um receberá com base em sua classe específica.&#10;&#10;Este exemplo serve como uma introdução simples ao uso de herança em Java e como uma demonstração de como as classes podem ser usadas para modelar objetos do mundo real com atributos e comportamentos específicos.&#10;&#10;Refs #1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetoDio/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetoDio/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="d4b5e062-a02e-4479-bacb-337772834865" name="Changes" comment="Adicionar classe Analista em Java&#10;&#10;Este commit adiciona a classe Analista em Java, que estende a classe Funcionario e adiciona o atributo adicional &quot;area&quot;. O método calcularBonus() na classe Analista calcula o bônus com base na avaliação da área.&#10;&#10;Este exemplo serve como uma demonstração simples de como estender uma classe existente em Java e adicionar comportamentos específicos.&#10;&#10;Refs #2">
+      <change beforePath="$PROJECT_DIR$/src/Assistente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assistente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +31,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -111,8 +109,33 @@
       <option name="project" value="LOCAL" />
       <updated>1678673596529</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adicionar classes de Funcionario e suas subclasses em Java&#10;&#10;Este commit adiciona quatro classes em Java para representar diferentes tipos de funcionários: Funcionario (abstrata), Gerente, Assistente e Analista. A classe Funcionario é uma classe abstrata que define os atributos básicos que todos os funcionários compartilham, como nome, salário e cargo. As outras três classes estendem a classe Funcionario e adicionam atributos específicos de cada tipo de funcionário.&#10;&#10;Cada uma das classes implementa o método calcularBonus() de maneira diferente, com base nas regras de bônus específicas para cada tipo de funcionário. Esses métodos são sobrescritos nas subclasses usando a anotação @Override.&#10;&#10;Este exemplo serve como uma introdução simples ao uso de herança em Java e como uma demonstração de como as classes podem ser usadas para modelar objetos do mundo real com atributos e comportamentos específicos.&#10;&#10;Refs #1">
+      <created>1678674463479</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678674463479</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adicionar classe Analista em Java&#10;&#10;Este commit adiciona a classe Analista em Java, que estende a classe Funcionario e adiciona o atributo adicional &quot;area&quot;. O método calcularBonus() na classe Analista calcula o bônus com base na avaliação da área.&#10;&#10;Este exemplo serve como uma demonstração simples de como estender uma classe existente em Java e adicionar comportamentos específicos.&#10;&#10;Refs #2">
+      <created>1678674611551</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678674611551</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -122,6 +145,8 @@
     <MESSAGE value="Classe filha Assistente, que herda atributos e métodos da classe Funcionario" />
     <MESSAGE value="Retirando classe abstrata" />
     <MESSAGE value="Adicionar exemplo de classes e objetos com herança em Java&#10;&#10;Este commit adiciona um exemplo simples de uso de herança em Java. Três classes foram criadas para representar diferentes tipos de funcionários: Gerente, Assistente e Analista. A classe Funcionario é uma classe que define os atributos básicos que todos os funcionários compartilham. As outras três classes estendem a classe Funcionario e adicionam atributos específicos de cada tipo de funcionário.&#10;&#10;Cada uma das classes implementa o método calcularBonus() de maneira diferente, com base nas regras de bônus específicas para cada tipo de funcionário. O código na classe Main instancia objetos de cada uma das classes e imprime informações sobre o estado atual dos objetos, bem como o bônus que cada um receberá com base em sua classe específica.&#10;&#10;Este exemplo serve como uma introdução simples ao uso de herança em Java e como uma demonstração de como as classes podem ser usadas para modelar objetos do mundo real com atributos e comportamentos específicos.&#10;&#10;Refs #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionar exemplo de classes e objetos com herança em Java&#10;&#10;Este commit adiciona um exemplo simples de uso de herança em Java. Três classes foram criadas para representar diferentes tipos de funcionários: Gerente, Assistente e Analista. A classe Funcionario é uma classe que define os atributos básicos que todos os funcionários compartilham. As outras três classes estendem a classe Funcionario e adicionam atributos específicos de cada tipo de funcionário.&#10;&#10;Cada uma das classes implementa o método calcularBonus() de maneira diferente, com base nas regras de bônus específicas para cada tipo de funcionário. O código na classe Main instancia objetos de cada uma das classes e imprime informações sobre o estado atual dos objetos, bem como o bônus que cada um receberá com base em sua classe específica.&#10;&#10;Este exemplo serve como uma introdução simples ao uso de herança em Java e como uma demonstração de como as classes podem ser usadas para modelar objetos do mundo real com atributos e comportamentos específicos.&#10;&#10;Refs #1" />
+    <MESSAGE value="Adicionar classes de Funcionario e suas subclasses em Java&#10;&#10;Este commit adiciona quatro classes em Java para representar diferentes tipos de funcionários: Funcionario (abstrata), Gerente, Assistente e Analista. A classe Funcionario é uma classe abstrata que define os atributos básicos que todos os funcionários compartilham, como nome, salário e cargo. As outras três classes estendem a classe Funcionario e adicionam atributos específicos de cada tipo de funcionário.&#10;&#10;Cada uma das classes implementa o método calcularBonus() de maneira diferente, com base nas regras de bônus específicas para cada tipo de funcionário. Esses métodos são sobrescritos nas subclasses usando a anotação @Override.&#10;&#10;Este exemplo serve como uma introdução simples ao uso de herança em Java e como uma demonstração de como as classes podem ser usadas para modelar objetos do mundo real com atributos e comportamentos específicos.&#10;&#10;Refs #1" />
+    <MESSAGE value="Adicionar classe Analista em Java&#10;&#10;Este commit adiciona a classe Analista em Java, que estende a classe Funcionario e adiciona o atributo adicional &quot;area&quot;. O método calcularBonus() na classe Analista calcula o bônus com base na avaliação da área.&#10;&#10;Este exemplo serve como uma demonstração simples de como estender uma classe existente em Java e adicionar comportamentos específicos.&#10;&#10;Refs #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionar classe Analista em Java&#10;&#10;Este commit adiciona a classe Analista em Java, que estende a classe Funcionario e adiciona o atributo adicional &quot;area&quot;. O método calcularBonus() na classe Analista calcula o bônus com base na avaliação da área.&#10;&#10;Este exemplo serve como uma demonstração simples de como estender uma classe existente em Java e adicionar comportamentos específicos.&#10;&#10;Refs #2" />
   </component>
 </project>

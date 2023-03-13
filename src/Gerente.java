@@ -1,4 +1,4 @@
-
+// Classe Filha Gerente
 public class Gerente extends Funcionario {
     private String area;
 
