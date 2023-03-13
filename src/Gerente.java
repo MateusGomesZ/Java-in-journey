@@ -1,27 +1,25 @@
 
 public class Gerente extends Funcionario {
-    private int numSubordinados;
+    private String area;
 
-    public Gerente(String nome, double salario, int numSubordinados) {
+    public Gerente(String nome, double salario, String area) {
         super(nome, salario, "Gerente");
-        this.numSubordinados = numSubordinados;
+        this.area = area;
     }
 
-    public int getNumSubordinados() {
-        return numSubordinados;
+    public String getArea() {
+        return area;
     }
 
-    public void setNumSubordinados(int numSubordinados) {
-        this.numSubordinados = numSubordinados;
+    public void setArea(String area) {
+        this.area = area;
     }
 
-    // Implementação do método abstrato calcularBonus()
     public double calcularBonus() {
-        return getSalario() * 0.2;
+        return getSalario() * 0.1;
     }
 
-    // Sobrescrita do método toString() para exibir informações de um Gerente
     public String toString() {
-        return super.toString() + ", Número de Subordinados: " + numSubordinados;
+        return super.toString() + ", Área: " + area;
     }
 }
